@@ -35,9 +35,9 @@ body {
 		.navbar, .navbar-inner, .active {
 		background: none;
 		border: 0;
+		color: #111;
 		@include box-shadow(none);
 		@include border-radius(none);
-		color: #111;
 	}
 
 	.navbar-main {
