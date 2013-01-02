@@ -12,18 +12,18 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="shortcut icon" type="image/x-icon" href="/./favicon.ico" />
-        <link rel="stylesheet" href="styles/1abcc78b.main.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-        <script src="scripts/vendor/cf69c6f2.modernizr.min.js"></script>
+        <script src="scripts/vendor/modernizr.min.js"></script>
     </head>
     <body class="al">
         <div class="container container-main">
             <div class="navbar navbar-main">
                 <div class="navbar-inner">
                     <div class="pull-left">
-                        <a class="brand site-title" href="/./index.html">Ayres lab</a>
-                        <div class="sub site-title">@<img src="images/a9f4841c.salk-logo.png" /></div>
+                        <a class="brand site-title" href="/index.html">Ayres lab</a>
+                        <div class="sub site-title">@<img src="images/salk-logo.png" /></div>
                     </div>
                     <ul class="nav pull-right">
                         <li class="active"><a href="home.html">Home</a></li>
@@ -43,7 +43,7 @@
         <!-- Add your site or application content here -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="scripts/vendor/8bc61845.jquery.min.js"><\/script>')</script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
         
         
 
@@ -55,8 +55,24 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
     
-    <script src="scripts/8ab52a5b.plugins.js"></script>
+    <!-- build:js scripts/plugins.js -->
+    <script src="scripts/vendor/bootstrap/bootstrap-affix.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-alert.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-modal.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-transition.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-button.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-popover.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-carousel.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-collapse.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tab.js"></script>
+    <!-- endbuild -->
 
-    <script src="scripts/15964141.amd-app.js"></script>
+    <!-- build:js scripts/amd-app.js -->
+    <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
